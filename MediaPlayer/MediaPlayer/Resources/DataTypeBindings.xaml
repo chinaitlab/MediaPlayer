@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:view="clr-namespace:MediaPlayer.View"
+                    xmlns:viewModel="clr-namespace:MediaPlayer.ViewModel">
+    <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+        <view:HomeView/>
+    </DataTemplate>
+</ResourceDictionary>
